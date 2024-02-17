@@ -1,0 +1,32 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #282828; /* Darker background for less clutter */
+  font-family: 'Courier', monospace;
+  color: #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#container {
+  text-align: center;
+  border: 10px solid #d2b48c; /* Frame-like border */
+  padding: 20px;
+  box-shadow: 0 0 15px #d2b48c; /* Soft glow for the frame */
+}
+
+#ascii {
+  font-size: 10pt;
+  line-height: 7.5pt;
+  white-space: pre-wrap; /* Ensures the art respects line breaks */
+  max-width: 640px; /* Fixed size for the ASCII art */
+  margin: auto;
+}
+
+#title, #message {
+  font-size: 16pt;
+  margin: 10px 0;
+  color: #FFD700; /* Golden text for emphasis */
+}
